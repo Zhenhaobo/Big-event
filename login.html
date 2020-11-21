@@ -5,12 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>登录</title>
-    <script src="assets/lib/jquery.js"></script>
-    <script src="/assets/lib/layui/layui.all.js"></script>
-    <script src="/assets/js/baseapi.js"></script>
-    <link rel="stylesheet" href="./assets/lib/layui/css/layui.css">
-    <link rel="stylesheet" href="./assets/css/login.css">
-    <script src="assets/js/login.js"></script>
+    <link rel="stylesheet" href="/assets/lib/layui/css/layui.css">
+    <link rel="stylesheet" href="/assets/css/login.css">
 </head>
 
 <body>
@@ -50,8 +46,8 @@
 
         <div class="zhuce">
             <form class="layui-form" action="" id="form_reg">
-                <!-- 用户名框 -->              
-                <div class="layui-form-item" >                 
+                <!-- 用户名框 -->
+                <div class="layui-form-item">
                     <input type="text" name="username" required lay-verify="required" placeholder="请输入用户名"
                         autocomplete="off" class="layui-input">
                 </div>
@@ -62,8 +58,8 @@
                 </div>
                 <!-- 再次确实密码框 -->
                 <div class="layui-form-item">
-                    <input type="password" name="repassword" required lay-verify="required|pwd|repwd" placeholder="请再次输入密码"
-                        autocomplete="off" class="layui-input">
+                    <input type="password" name="repassword" required lay-verify="required|pwd|repwd"
+                        placeholder="请再次输入密码" autocomplete="off" class="layui-input">
                 </div>
                 <!-- 提交按钮 -->
                 <div class="layui-form-item">
@@ -75,7 +71,10 @@
             </div>
         </div>
     </div>
-  
+  <script src="/assets/lib/jquery.js"></script>
+  <script src="/assets/lib/layui/layui.all.js"></script>
+  <script src="/assets/js/baseAPI.js"></script>
+  <script src="/assets/js/login.js"></script>
 </body>
 
 </html>
