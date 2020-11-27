@@ -1,0 +1,11 @@
+body{
+    background-color: #ccc;
+    padding: 15px;
+}
+.layui-card-header {
+    display: flex;
+   justify-content: space-between;
+}
+#formtext {
+    padding:15px;
+}
